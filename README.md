@@ -23,10 +23,24 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+It's when you create with inclusiveness to people with disabilities in mind for example; making sure you have h1's, bolded text and/or including alt =''to include info in case there is an image that isn't displaying.
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+1) We can use the alt attribute that comes with an img tag to show type what an image would be incase it wasn't viewable on their device.
+2) Using underline for users who may be color blind to help them differentiate between text and a link.
+3) Making font sizes bigger or bolded to help a visually impared user. examples could include using h1-h6 to help people see topics easier, font-weight: bold and rems to increase text size.
 3. How would you explain the concept of a variable to someone new to programming?
+A variable is a container that we can create to store information that we want the computer to grab and use when we need it to and its uses have an almost infinite amount of possibilites to go into.
 4. What is the purpose of using functions in code?
+A function is like a formula in mathematics that we can use to help us do something over and over, make it easier for someone to do something like (for example) calculate discounts or help them choose what kind of vacation destination they would like based on their preferences. A function overall makes things easier for developers and users. 
 5. How do you access a key inside of an object inside of an array?
+console.log(nameOfObject.nameOfKey)
+
+
+EXAMPLE of this: const dog{
+    name: 'Ada'
+}
+console.log(dog.name)
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
